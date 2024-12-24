@@ -4,9 +4,12 @@
 ; INITIALGHOSTAMOUNT is a Number and stands for the amount of ghosts
 ; GHOSTSPEED-X is Number and represents the speed at which ghosts move along the x-axis each tick
 ; GHOSTSPEED-Y is Number and represents the speed at which ghosts move along the y-axis each tick
+
+(require 2htdp/image)
+
 (define WIDTH 1000)
 (define HEIGHT 600)
-(define GHOSTPIC .)
+(define GHOSTPIC (bitmap "https://github.com/aeroplane12/Ghost/main/ghost.png"))
 (define INITIALGHOSTAMOUNT 3)
 (define GHOSTMAXSPEED-X 10)
 (define GHOSTMAXSPEED-Y 10)
