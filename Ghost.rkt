@@ -9,7 +9,7 @@
 
 (define WIDTH 1000)
 (define HEIGHT 600)
-(define GHOSTPIC (bitmap "https://github.com/aeroplane12/Ghost/blob/main/ghost.png"))
+(define GHOSTPIC (bitmap "https://raw.githubusercontent.com/aeroplane12/Ghost/main/ghost.png"))
 (define INITIALGHOSTAMOUNT 3)
 (define GHOSTMAXSPEED-X 10)
 (define GHOSTMAXSPEED-Y 10)
